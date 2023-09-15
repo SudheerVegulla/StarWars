@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import CharacterDetailsModal from './CharacterDetailsModal'; // Import the CharacterDetailsModal component
+import CharacterDetailsModal from './CharacterDetailsModal';
 
 const CharacterCard = ({ character }) => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
